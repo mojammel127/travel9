@@ -1,0 +1,17 @@
+.hotel-details, .star-price{
+    display: flex;
+    /* padding: 10px; */
+    text-align: justify;
+    margin: 20px;
+}
+.star-price{
+    justify-content: space-between;
+}
+.hotel-img img{
+    height: 270px;
+    width: 350px;
+    margin-right: 10px;
+}
+.stars img{
+    height: 20px;
+}

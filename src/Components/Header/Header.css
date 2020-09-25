@@ -1,0 +1,95 @@
+.logo-link .logo-img{
+    height: 40px;
+    width: 80px;
+    margin-right: 20px;
+}
+.logo-link{
+    margin-left: 8%;
+}
+.search-form{
+    width: 350px !important;
+}
+.link{
+    margin-left: 15px;
+    margin-top: 3px;
+    width: 13.5%;
+    text-decoration: none !important;
+    color: black;
+    border-radius: 30px;
+    padding: 3px;
+    align-self: center !important;
+}
+.link:hover{
+    border: 1px solid rgb(245, 73, 10);
+    background-color: rgba(240, 128, 128,0.3);
+}
+.Link{
+    width: 80%;
+}
+.btn-link{
+    width: 20%;
+}
+.name{
+    width: fit-content;
+    color: rgb(10, 167, 245);
+    font-weight: 500;
+    margin-left: 15px;
+    padding: 0 10px;
+    display: flex;
+    border:2px solid indianred;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media (max-width: 1356px){
+    .logo-link{
+        margin-left: 0 !important;
+    }
+    .Link{
+        width: 90% !important;
+    }
+    @media (max-width: 1178px) {
+        .link{
+            display: none !important;
+        }
+        .logo-link{
+            margin-left: 10% !important;
+        }
+    }
+}
+@media (max-width: 988px){
+    .link{
+        display: block !important;
+        text-align: left !important;
+        position: relative;
+        right: 41%;
+        margin: 10px;
+    }
+    .sign-out{
+        width: fit-content !important;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .logo-link{
+        margin-left: 0 !important;
+    }
+}
+.name:hover{
+    background-color: rgba(240, 128, 128,0.3);
+    color: rgb(32, 70, 33);
+}
+
+.name p{
+    position: relative;
+    top: 8px;
+}
+.signedIn-img{
+    height: 28px;
+    margin-right: 5px;
+}
+
+.sign-out{
+    border-radius: 30px !important;
+    margin-left: 22px;
+}

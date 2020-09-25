@@ -1,0 +1,12 @@
+.des{
+    width: 20%;
+}
+.booking{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 7%;
+}
+.form{
+    width: 35%;
+}

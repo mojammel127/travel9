@@ -1,0 +1,68 @@
+.special-form{
+    height: 850px !important;
+    background-size: cover;
+}
+.sign-in-form, .sign-in-or{
+    width: 40%;
+    border: 1.5px solid gray;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative !important;
+    top: -50px;
+}
+
+.sign-in-or{
+    border: none;
+    top: -110px;
+}
+
+.facebook-img, .google-img{
+    height: 35px;
+    position: relative;
+}
+.facebook-img{
+    right: 18%;
+}
+.google-img{
+    right: 20%;
+}
+.sign-in-btn{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.or{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.or p{
+    width: 45%;
+    background-color: gray;
+    height: 0.5px;
+    margin-top: 25px;
+    /* position: relative !important;
+    top: 50%; */
+}
+.Create{
+    cursor: pointer;
+    font-weight: 500;
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.Login, .Forgot-password{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Create{
+    text-decoration: underline;
+}
+.login-create{
+    position: relative;
+    top: 15px;
+}
